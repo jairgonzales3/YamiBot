@@ -26,14 +26,14 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* —◉
+║    ◉— *@ffxryu.18* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* Bruno Sobrino
-║➤ *Numero:* wa.me/5219992095479
-║➤ *Bot ofc:* wa.me/529993404349
-║➤ *PayPal:* https://www.paypal.me/TheShadowBrokers133
+║➤ *Owner:* Ryu
+║➤ *Numero:* wa.me/51955095498
+║➤ *Bot ofc:* wa.me/56920742083
+║➤ *Yape:* 933 032 298
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios:* ${rtotalreg}
@@ -46,7 +46,7 @@ let str = `
 ┣ *🧰 Experiencia:* ${exp}
 ┣ *⚓ Rango:* ${role}
 ┣ *💎 Diamantes:* ${limit}
-┣ *👾 MysticCoins:* ${money}
+┣ *👾 RyuCoins:* ${money}
 ┣ *🪙 Tokens:* ${joincount}
 ┣ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : '❌'}
 ┗━━━━━━━━━━━━━━━━┛
@@ -636,10 +636,10 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
+title: '@ffxryu.18',
 body: null,
 thumbnail: img,
-sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
+sourceUrl: `https://wa.me/+51955095498`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
